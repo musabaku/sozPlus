@@ -1,4 +1,6 @@
 package com.makCodes.sozplus
+import android.app.Application
+import dagger.hilt.android.HiltAndroidApp
 
-class SozPlusApp {
-}
+@HiltAndroidApp
+class SozPlusApp :Application()
